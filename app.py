@@ -115,17 +115,6 @@ def main():
 
     st.markdown("<h1 class='title'>Medical Document Redactor</h1>", unsafe_allow_html=True)
     
-    col1, col2 = st.columns(2)
-    
-    # with col1:
-    #     # st.markdown("<div class='custom-box'>", unsafe_allow_html=True)
-    #     # st.write(f"📥 Input Bucket: {input_bucket}")
-    #     # st.markdown("</div>", unsafe_allow_html=True)
-    # with col2:
-    #     st.markdown("<div class='custom-box'>", unsafe_allow_html=True)
-    #     st.write(f"📤 Output Bucket: {output_bucket}")
-    #     st.markdown("</div>", unsafe_allow_html=True)
-
     st.markdown("<div class='custom-box'>", unsafe_allow_html=True)
     uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
     

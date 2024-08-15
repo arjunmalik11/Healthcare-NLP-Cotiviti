@@ -17,10 +17,10 @@ bedrock_runtime = boto3.client('bedrock-runtime', region_name=REGION)
 
 def invoke_bedrock_model(redacted_text, model_id):
     prompt = f"""
-You are a medican document summarizer. Analyze the following redacted text and provide a brief summary on what is redacted and why in a list manner:
+You are a medical document summarizer. Analyze the following redacted text and provide a brief summary on what is redacted and why in a list manner:
 
 {redacted_text}
-Do not include any information not present in the provided text.Do not include any additional text, greetings, or signatures. Start directly with the list:
+Do not include any sensitive information and information not present in the provided text. Do not include any additional text, greetings, or signatures. Start directly with the list:
 
 """
     
