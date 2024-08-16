@@ -1,4 +1,4 @@
-# Healthcare-NLP
+# PHI-PII-Redaction-using-NLP
 
 A Healthcare Natural Language Processing (NLP) solution focused on redacting Personally Identifiable Information (PII) and Protected Health Information (PHI) from medical documents. This repository provides a simple and effective way to ensure the privacy and security of sensitive health information using NLP techniques.
 
